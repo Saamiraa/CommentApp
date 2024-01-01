@@ -1,12 +1,13 @@
-import Comments from "./comments/Comments"
+import Comments from "./comments/Comments";
 
-function App() {
+const App = () => {
   return (
     <div>
-      <h1>Hello monsterLessons</h1>
-      <Comments currentUserId="1" />
+      <Comments
+        currentUserId="1"
+      />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
